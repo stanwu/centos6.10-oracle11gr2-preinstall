@@ -20,7 +20,7 @@ else
    rpm -ivh pdksh-5.2.14-2.i386.rpm
 fi
 
-echo "install pre-install files" 
+echo "install pre-install files"
 cd /etc/yum.repos.d
 wget https://public-yum.oracle.com/public-yum-ol6.repo
 wget https://public-yum.oracle.com/RPM-GPG-KEY-oracle-ol6 -O /etc/pki/rpm-gpg/RPM-GPG-KEY-oracle
@@ -58,6 +58,11 @@ cd /
 tar xvzf /root/install_files.tgz
 
 clear
+if uname -m | grep 64; then
+   echo "rpm -ivh pdksh-5.2.14-37.el5_8.1.x86_64.rpm"
+else
+   echo "rpm -ivh pdksh-5.2.14-2.i386.rpm"
+fi
 echo "Pre-install done! ${mcpu}bit"
 echo "You need reboot before install Oracle"
 
