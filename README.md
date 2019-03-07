@@ -26,10 +26,19 @@ You need download below files before you start pre-install:
 
 ## Steps
 
-1. Please copy all files to /root
+1. Install git tool and clone this project to your root folder 
+
+You need login as root to install git tool
 
 ```bash
+su -
 cd /root
+yum -y install git
+```
+
+Clone all files to /root
+
+```bash
 git clone https://github.com/stanwu/centos6.10-oracle11gr2-preinstall.git
 cd centos6.10-oracle11gr2-preinstall
 cp -a * ../
