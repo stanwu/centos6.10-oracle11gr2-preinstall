@@ -36,6 +36,7 @@ cp pdk* /root
 2. Change install.sh to executable
 
 ```bash
+cd /root
 chmod 755 install.sh
 ```
 
