@@ -62,7 +62,7 @@ You need reboot your system before install Oracle 11gR2
 ## Start install Oracle 11gR2
 
 1. Put Oracle 11gR2 zip files into /home/oracle
-2. Unzip 2 zip files (Please make sure 2 files are unziped)
+2. Unzip 2 zip files (Please make sure 2 files are 100% unziped)
 3. Change to root to enable X windows access
 
 ```bash
