@@ -29,14 +29,16 @@ You need download below files before you start pre-install:
 1. Please copy all files to /root
 
 ```bash
-cp install* /root
-cp pdk* /root
+cd /root
+git clone https://github.com/stanwu/centos6.10-oracle11gr2-preinstall.git
+cd centos6.10-oracle11gr2-preinstall
+cp -a * ../
 ```
 
 2. Change install.sh to executable
 
 ```bash
-cd /root
+cd ..
 chmod 755 install.sh
 ```
 
@@ -50,7 +52,7 @@ You need reboot your system before install Oracle 11gR2
 
 ## Start install Oracle 11gR2
 
-1. put Oracle 11gR2 zip files into /home/oracle
+1. Put Oracle 11gR2 zip files into /home/oracle
 2. Unzip zip files
 3. Change to root to enable X windows access
 
