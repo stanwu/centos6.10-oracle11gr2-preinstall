@@ -58,11 +58,14 @@ cd /
 tar xvzf /root/install_files.tgz
 
 clear
+echo "You may use below command to install pdksh again"
+echo ""
 if uname -m | grep 64; then
    echo "rpm -ivh pdksh-5.2.14-37.el5_8.1.x86_64.rpm"
 else
    echo "rpm -ivh pdksh-5.2.14-2.i386.rpm"
 fi
+echo ""
 echo "Pre-install done! ${mcpu}bit"
 echo "You need reboot before install Oracle"
 
