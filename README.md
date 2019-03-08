@@ -1,4 +1,4 @@
-# CentOS 6.10 + Oracle 11gR2 pre-installer
+# CentOS 6.10 + Oracle 11gR2 pre-installer automation
 
 This preinstall will help you to install all of requirment files before you start install Oracle 11gR2
 
